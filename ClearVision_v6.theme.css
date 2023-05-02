@@ -34,11 +34,11 @@
   --url-color: #9C27B0; /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
-  --online-color: #ED97B4; /* online status color (hex, rgb or hsl) [default: #43b581] */
-  --idle-color: #9476BD; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
-  --dnd-color: #97C2ED; /* dnd status color (hex, rgb or hsl) [default: #982929] */
-  --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
-  --offline-color: #72CAD6; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+  --online-color: #C1E7E3; /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: #0CFFF8; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --dnd-color: #FF0CFE; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --streaming-color: #0ABFDE; /* streaming status color (hex, rgb or hsl) [default: #593695] */
+  --offline-color: #C1BBDD; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
   /* GENERAL */
   --main-font: OMORI_GAME; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
