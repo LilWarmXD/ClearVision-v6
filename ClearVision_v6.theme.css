@@ -9,6 +9,17 @@
  */
 
 /* Credits to Zerthox for making the original theme. */
+/**
+ * @name ClearVision
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ */
+
+/* Credits to Zerthox for making the original theme. */
 
 /* IMPORT CSS */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
@@ -16,22 +27,22 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-  --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
-  --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
-  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
+  --main-color: #EC99FB; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #A459B1; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #806DA1; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #6A4278; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  --url-color: #9C27B0; /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
-  --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
-  --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
-  --dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --online-color: #ED97B4; /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: #C697ED; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --dnd-color: #97C2ED; /* dnd status color (hex, rgb or hsl) [default: #982929] */
   --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
-  --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+  --offline-color: #72CAD6; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
   /* GENERAL */
-  --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
-  --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
+  --main-font: OMORI_GAME; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --code-font: OMORI_GAME; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   --text-normal: rgb(220, 221, 222); /* color of default discord text */
   --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
@@ -40,7 +51,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url('https://e1.pxfuel.com/desktop-wallpaper/1021/786/desktop-wallpaper-aesthetic-laptop-backgrounds-posted-by-cute-aesthetic-laptop-purple.jpg'); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -80,7 +91,7 @@
   --backdrop-blur: var(--background-blur); /* modal backdrop blur [default: var(--background-blur)] */
 
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(--background-image); /* app background image (link must be HTTPS) [default: var(--background-image)] */
+  --user-popout-image: var('https://e1.pxfuel.com/desktop-wallpaper/1021/786/desktop-wallpaper-aesthetic-laptop-backgrounds-posted-by-cute-aesthetic-laptop-purple.jpg'); /* app background image (link must be HTTPS) [default: var(--background-image)] */
   --user-popout-position: var(--background-position); /* user popout background position [default: var(--background-position)] */
   --user-popout-size: var(--background-size); /* user popout background size [default: var(--background-size)] */
   --user-popout-repeat: var(--background-repeat); /* user popout background repeat [default: var(--background-repeat)] */
